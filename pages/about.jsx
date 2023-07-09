@@ -26,7 +26,7 @@ export default function About({ staticPost }){
           I am a graduate of Computer Programming at Seneca Polytechnic, and now I am writing this app for fun.
           This is not an assignment.<br /><br />
           I like Tarantino&apos;s movies, so, here you go, Django.<br /><br />
-          <Link href="/movies/Django Unchained" passHref legacyBehavior>
+          <Link href="/movies/Django Unchained" legacyBehavior>
             <a>Django Unchained</a>
           </Link>
         </Card.Body>

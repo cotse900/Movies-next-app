@@ -8,7 +8,7 @@ import PageHeader from '@/components/PageHeader';
 const Movie = () => {
   const router = useRouter();
   const { title } = router.query;
-  const { data, error } = useSWR(`https://ruby-precious-coyote.cyclic.app/api/movies?movies?page=1&perPage=10&title=${title}`);
+  const { data, error } = useSWR(`https://ruby-precious-coyote.cyclic.app/api/movies?page=1&perPage=10&title=${title}`);
 
   if (!data){
     return null;

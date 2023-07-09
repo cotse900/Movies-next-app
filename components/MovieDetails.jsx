@@ -8,7 +8,7 @@ export default function MovieDetails ({ movie }) {
     <>
       <Container>
         <Row>
-          {<Col md><img src={ movie.poster } alt="poster" className="w-100" /><br /><br /></Col>}
+          {movie.poster && <Col md><img src={ movie.poster } alt="poster" className="w-100" /><br /><br /></Col>}
           <Col md>
             <strong>Directed By: </strong> { movie.directors.join(", ") } <br /><br />
             <p>{ movie.fullplot }</p>
